@@ -1,0 +1,65 @@
+# ─── Python ───────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# ─── Virtual Environments ─────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ─── Environment Variables ────────────────
+.env
+.env.local
+*.env
+
+# ─── Flask / App ──────────────────────────
+instance/
+.webassets-cache
+flask_session/
+
+# ─── Data files (large CSVs) ──────────────
+data/
+*.csv
+
+# ─── Jupyter Notebooks ────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── OS Files ─────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDEs ─────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─── Logs & Temp ──────────────────────────
+*.log
+*.tmp
+*.bak
+
+# ─── Build / Distribution ─────────────────
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# ─── Testing ──────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ─── Generated static charts ──────────────
+# (these get regenerated at runtime by the app)
+static/confusion_matrix.png
+static/churn_distribution.png
+static/risk_distribution.png
