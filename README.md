@@ -73,7 +73,7 @@ setup_env.bat
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/customer-churn-predictor.git
+git clone https://github.com/BitBreweer/customer-churn-predictor.git
 cd customer-churn-predictor
 
 # 2. Create a virtual environment
